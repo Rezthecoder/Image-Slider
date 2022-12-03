@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: rgb(0 100 0 /0.05) !important; */
+}
+
+body{
+    background-color: rgb(154, 215, 96);
+    color: rgb(10, 7, 21);
+}
+.img-container{
+    width: 60vh;
+    min-height: 60vh;
+    background: url("img/1.jpg") center/cover  fixed no-repeat;
+    border: 0.5rem solid rgb(14, 165, 220);
+    border-radius: 0.5rem;
+    position: relative;
+    margin: 4rem auto;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.6)
+    ;
+
+}
+    .btn-left{ /* height: 50%; */
+    top: 50%;
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 7px;
+    transform: translate(-50%, -50%);
+   }
+   .btn-right{ /* height: 50%; */
+    top: 50%;
+    position: absolute;
+    right: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 7px;
+    transform: translate(22%, -4%);
+   }
